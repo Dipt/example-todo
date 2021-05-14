@@ -1,0 +1,58 @@
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input {
+    width: 350px;
+    height: 40px;
+    font-size: 18px;
+    padding-left: 8px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column-reverse;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    border-bottom: 1px dotted #bbb;
+}
+
+.muted {
+    color: #aaa;
+}
+
+.todo-item__text {
+    display: flex;
+}
+
+.hidden {
+    display: none;
+}
+
+.remove-btn {
+    height: 24px;
+    width: 24px;
+    text-align: center;
+    font-size: 16px;
+    background-color: #fff;
+    border-radius: 16px;
+    border: 1px solid #666;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+}
